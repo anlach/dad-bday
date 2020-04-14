@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <birthday msg="Happy Birthday!"/>
-    <img alt="Vue logo" src="./assets/dadonboat.jpg">
+    <img alt="People on boat" src="./assets/dadonboat.jpg">
     <cake></cake>
   </div>
 </template>

@@ -3,72 +3,9 @@
     <h2>Make a wish!</h2>
     <div id="outer-container">
       <div id="frosting"></div>
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
-      <img src="../assets/candle.png" id="candle">
+      <span v-for="n in 66" :key="n">
+        <img src="@/assets/candle.png" id="candle">
+      </span>
     </div>
     <div id="bottom-text">
       <h4>Candles are for viewing purposes only. Please do not attempt to extinguish the flames</h4>
